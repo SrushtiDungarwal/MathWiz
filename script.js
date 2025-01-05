@@ -27,7 +27,7 @@ function login(){
     s.style.color = "red"
 
     if(checkEmail() && checkMob() && checkPassword()){
-        window.location.href = "maths_project2.html";
+        window.location.href = "maths_project.html";
     }else if(!checkEmail()){
         s.innerHTML = "Invalid username.";     
     }else if(!checkPassword()){
